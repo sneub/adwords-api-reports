@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>AdWords API Reports</title>
+
+    <link rel="stylesheet" href="stylesheets/zoom.css">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>AdWords API Reports</h1>
+        <p>A Google Spreadsheets add-on that makes analysing AdWords API Reports easy!</p>
+
+        <!--<p class="view"><a href="https://github.com/sneub/testrepo">View the Project on GitHub <small>sneub/testrepo</small></a></p>-->
+
+        <!--<ul>
+          <li><a href="https://github.com/sneub/testrepo/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/sneub/testrepo/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/sneub/testrepo">View On <strong>GitHub</strong></a></li>
+        </ul>
+        <ul>
+          <li><a href="">Link to AWQL doco</a></li>
+        </ul>-->
+      </header>
+      <section>
+        <h1>Getting Started</h1>
+        <h3>Hey! Let me help you.</h3>
+        <p>If you've never done this before, it may seem a little daunting. Don't worry! I'm here for you. The guide below will step you through the whole project set up process and have you querying the AdWords API in no time.</p>
+
+        <h3>Google Developer Console</h3>
+        <p>The first thing we need to do is open the Developer Console for your project</p>
+        <h4 class="step">Open <em>Script editor</em> from the <em>Tools</em> menu</h4>
+        <span class="zoom" id="step1img"><img src="images/steps/step1.png" /></span>
+
+        <h4 class="step">Open <em>Developers Console Project</em> from the <em>Resources</em> menu</h4>
+        <span class="zoom" id="step2img"><img src="images/steps/step2.png" /></span>
+
+        <h4 class="step">Click <em>View Developers Console</em> to open the console</h4>
+        <span class="zoom" id="step3img"><img src="images/steps/step3.png" /></span>
+
+        <h4 class="step">Navigate to the <em>Credentials</em> section</h4>
+        <span class="zoom" id="step4img"><img src="images/steps/step4.png" /></span>
+
+        <h4 class="step">Click on the <em>Apps Script</em> link to see credentials related to Apps Script</h4>
+        <span class="zoom" id="step5img"><img src="images/steps/step5.png" /></span>
+
+        <h4 class="step">Find your Client ID and Client Secret here</h4>
+        <span class="zoom" id="step6img"><img src="images/steps/step6.png" /></span>
+        <ul>
+          <li>Take note of the <em>Client ID</em> and <em>Client Secret</em> here.</li>
+          <li>Insert the <em>Authorized Redirect URL</em> in this page too.</li>
+          <li>Don't forget to save your changes</li>
+        </ul>
+
+        <h3 class="step">Now you're ready to authorize and start querying the AdWords API!</h3>
+      </section>
+      <footer>
+        <p>Found a bug? Report it here</p>
+        <!--<p>This project is maintained by <a href="https://github.com/sneub">sneub</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p> -->
+      </footer>
+    </div>
+    <script src="js/scale.fix.js"></script>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery.zoom.min.js"></script>
+    <script>
+		$(document).ready(function(){
+			$('#step1img').zoom();
+			$('#step2img').zoom();
+			$('#step3img').zoom();
+			$('#step4img').zoom();
+			$('#step5img').zoom();
+			$('#step6img').zoom();
+		});
+	</script>
+  </body>
+</html>
